@@ -8,6 +8,7 @@
     rm src/App.css src/App.test.js src/index.css src/logo.svg src/reportWebVitals.js src/setupTests.js
     mkdir src/components src/styles
     touch src/styles/reset.css src/styles/style.css
+    npm install gh-pages --save-dev
 ### Index.html
 - Rename document
 - Add project description in meta tag
@@ -17,5 +18,12 @@
 - Copy and paste corresponding file content
 ### reset.css
 - Copy and paste corresponding file content
+### Package.json *(add)*
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "homepage": "http://[USERNAME].github.io/[PROJECT-NAME]",
 ### Miscellaneous
 - Add a nice favicon.png to public/
+- Set GitHub Pages source as *gh-pages branch*
