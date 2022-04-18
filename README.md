@@ -1,5 +1,6 @@
-# Project initialization
-## Webpack
+# Documentation
+## Project initialization
+### Webpack
     mkdir myProject
     cd myProject
     code .
@@ -8,10 +9,10 @@
     mkdir src src/fonts src/media src/modules dist
     touch src/index.js src/style.css dist/index.html webpack.config.js
     npm install --save-dev style-loader css-loader
-## Git
+### Git
     git init
     touch .gitignore
-## Webpack.config.js
+### Webpack.config.js
     const path = require('path');
 
     module.exports = {
@@ -38,7 +39,7 @@
         ]
       }
     };
-## Package.json *(add)*
+### Package.json *(add)*
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "watch": "webpack --watch",
