@@ -10,8 +10,9 @@
     touch src/styles/reset.css src/styles/style.css
     npm install gh-pages --save-dev
 ### Index.html
-- Rename document
-- Add project description in meta tag
+- Copy and paste corresponding file content
+- Change title
+- Change description
 ### App.js
 - Copy and paste corresponding file content
 ### index.js
@@ -25,6 +26,6 @@
     },
     "homepage": "http://USERNAME.github.io/APPNAME",
 ### Miscellaneous
+- Ensure the last console command was sent!
 - Add a nice favicon.png to public/
 - Set GitHub Pages source as *gh-pages branch*
-- Ensure the last console command was sent!
