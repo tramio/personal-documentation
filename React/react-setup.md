@@ -26,7 +26,7 @@
     },
     "homepage": "http://USERNAME.github.io/APPNAME",
 ### README.md
-- Circumstantial
+    Are you looking for this project's [live demo](http://USERNAME.github.io/APPNAME)?
 ### Miscellaneous
 - Ensure the last console command was sent!
 - Add a nice favicon.png to public/
