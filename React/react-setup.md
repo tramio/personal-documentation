@@ -26,7 +26,7 @@
     },
     "homepage": "http://USERNAME.github.io/APPNAME",
 ### README.md
-- Circumstancial
+- Circumstantial
 ### Miscellaneous
 - Ensure the last console command was sent!
 - Add a nice favicon.png to public/
