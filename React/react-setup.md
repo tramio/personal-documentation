@@ -25,6 +25,8 @@
       "deploy": "gh-pages -d build"
     },
     "homepage": "http://USERNAME.github.io/APPNAME",
+### README.md
+- Circumstancial
 ### Miscellaneous
 - Ensure the last console command was sent!
 - Add a nice favicon.png to public/
