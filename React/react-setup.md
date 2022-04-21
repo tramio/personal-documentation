@@ -1,8 +1,8 @@
 # React
 ## Initialization
 ### Console
-    npx create-react-app [APP-NAME]
-    cd [APP-NAME]
+    npx create-react-app APPNAME
+    cd APPNAME
     code .
     rm public/favicon.ico public/logo192.png public/logo512.png public/manifest.json public/robots.txt
     rm src/App.css src/App.test.js src/index.css src/logo.svg src/reportWebVitals.js src/setupTests.js
@@ -23,7 +23,7 @@
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"
     },
-    "homepage": "http://[USERNAME].github.io/[PROJECT-NAME]",
+    "homepage": "http://USERNAME.github.io/APPNAME",
 ### Miscellaneous
 - Add a nice favicon.png to public/
 - Set GitHub Pages source as *gh-pages branch*
