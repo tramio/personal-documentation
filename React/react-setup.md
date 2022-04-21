@@ -30,4 +30,3 @@
 ### Miscellaneous
 - Ensure the last console command was sent!
 - Add a nice favicon.png to public/
-- Set GitHub Pages source as *gh-pages branch*
