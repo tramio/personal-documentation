@@ -5,7 +5,7 @@
     cd APPNAME
     code .
     rm public/favicon.ico public/logo192.png public/logo512.png public/manifest.json public/robots.txt
-    rm src/App.css src/App.test.js src/index.css src/logo.svg src/reportWebVitals.js src/setupTests.js
+    rm src/App.css src/index.css src/logo.svg src/reportWebVitals.js src/setupTests.js
     mkdir src/components src/styles
     touch src/styles/reset.css src/styles/style.css
     npm install gh-pages --save-dev
