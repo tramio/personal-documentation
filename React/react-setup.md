@@ -22,12 +22,16 @@
 - Copy and paste corresponding file content
 ### Package.json *(add)*
     "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
-    "homepage": "http://USERNAME.github.io/APPNAME",
+    "homepage": "http://tramio.github.io/APPNAME",
 ### README.md
-    Are you looking for this project's [live demo](http://USERNAME.github.io/APPNAME)?
+    Are you looking for this project's [live demo](http://tramio.github.io/APPNAME)?
 ### Miscellaneous
 - Ensure the last console command was sent!
 - Add a nice favicon.png to public/
